@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="style/index.css">
 </head>
 <body>
-<body>
 
 <header>
     <h1>Portfolio</h1>
@@ -15,12 +14,34 @@
 </header>
 
 <nav>
-    <a href="#intro">Introductie</a>
-    <a href="#logboek">Logboek</a>
-    <a href="#ontwikkeling">Ontwikkeling</a>
-    <a href="#opdrachten">Opdrachten</a>
-    <a href="#reflectie">Reflectie</a>
-    <a href="#x-factor">X-factor</a>
+    <ul>
+
+        <li class="dropdown">
+            <input type="radio" name="menu" id="wpl1">
+            <label for="wpl1">WPL1</label>
+
+            <ul class="dropdown-menu">
+                <li><a href="#intro">Introductie</a></li>
+                <li><a href="#logboek">Logboek</a></li>
+                <li><a href="#ontwikkeling">Ontwikkeling</a></li>
+                <li><a href="#opdrachten">Opdrachten</a></li>
+                <li><a href="#reflectie">Reflectie</a></li>
+                <li><a href="#x-factor">X-factor</a></li>
+            </ul>
+        </li>
+
+        <li class="dropdown">
+            <input type="radio" name="menu" id="wpl2">
+            <label for="wpl2">WPL2</label>
+
+            <ul class="dropdown-menu">
+                <li><a href="#wpl2-case">Case</a></li>
+                <li><a href="#wpl2-aandeel">Mijn aandeel</a></li>
+                <li><a href="#wpl2-eindreflectie">Eindreflectie</a></li>
+            </ul>
+        </li>
+
+    </ul>
 </nav>
 
 <div class="container">
@@ -51,26 +72,26 @@
             <tr>
                 <td data-label="Week">1</td>
                 <td data-label="Periode">22/09 - 26/09</td>
-                <td data-label="Inhoud">Introductie werkplekleren, Wat is programmeren, Intro POP, X-Factor & SDG's, Intro Scratch</td>
+                <td data-label="Inhoud">Introductie werkplekleren, Wat is programmeren, Intro POP, X-Factor &amp; SDG's, Intro Scratch</td>
                 <td data-label="Opdrachten / Evaluaties">/</td>
             </tr>
             <tr>
                 <td data-label="Week">2</td>
                 <td data-label="Periode">29/09 - 03/10</td>
-                <td data-label="Inhoud">Oriënteringstraject, Installatie Git & GitHub, Introductie Git & GitHub, LockDownBrowser</td>
+                <td data-label="Inhoud">Oriënteringstraject, Installatie Git &amp; GitHub, Introductie Git &amp; GitHub, LockDownBrowser</td>
                 <td data-label="Opdrachten / Evaluaties">Evaluatie: LockDownBrowser</td>
             </tr>
             <tr>
                 <td data-label="Week">3</td>
                 <td data-label="Periode">06/10 - 10/10</td>
-                <td data-label="Inhoud">POP motivatie, kerkwadranten & reflecteren, Labo: Git & GitHub, Scratch</td>
+                <td data-label="Inhoud">POP motivatie, kerkwadranten &amp; reflecteren, Labo: Git &amp; GitHub, Scratch</td>
                 <td data-label="Opdrachten / Evaluaties">Opdracht: Scratch</td>
             </tr>
             <tr>
                 <td data-label="Week">4</td>
                 <td data-label="Periode">13/10 - 17/10</td>
-                <td data-label="Inhoud">POP planning & studieaanpak, Git & GitHub, Reflecteren</td>
-                <td data-label="Opdrachten / Evaluaties">Evaluatie: Git & GitHub / Opdracht: Reflecteren</td>
+                <td data-label="Inhoud">POP planning &amp; studieaanpak, Git &amp; GitHub, Reflecteren</td>
+                <td data-label="Opdrachten / Evaluaties">Evaluatie: Git &amp; GitHub / Opdracht: Reflecteren</td>
             </tr>
             <tr>
                 <td data-label="Week">5</td>
@@ -99,8 +120,8 @@
             <tr>
                 <td data-label="Week">9</td>
                 <td data-label="Periode">24/11 - 28/11</td>
-                <td data-label="Inhoud">Instroombevraging, Feedback evaluatie, HTML & CSS</td>
-                <td data-label="Opdrachten / Evaluaties">Evaluatie: HTML & CSS</td>
+                <td data-label="Inhoud">Instroombevraging, Feedback evaluatie, HTML &amp; CSS</td>
+                <td data-label="Opdrachten / Evaluaties">Evaluatie: HTML &amp; CSS</td>
             </tr>
             <tr>
                 <td data-label="Week">10</td>
@@ -152,6 +173,7 @@
         <div class="highlight-box">
             <p>Ik denk dat het beroep van programmeur goed bij mij past omdat ik het fijn vind om problemen op te lossen en geconcentreerd aan complexe taken te werken. Als iets niet meteen lukt, geef ik niet snel op en probeer ik net zo lang totdat ik een oplossing heb gevonden. Ik werk graag zelfstandig, maar kan ook goed samenwerken in een team. Het beroep vereist ook continue bijleren, wat goed past bij mijn nieuwsgierige en leergierige aard. Daarnaast geeft het mij voldoening om een programma of applicatie te laten werken zoals bedoeld, en vind ik het motiverend om mijn eigen ideeën in code om te zetten. Programmeur zijn combineert dus creativiteit, doorzettingsvermogen en logisch denken, wat perfect aansluit bij mijn talenten en interesses.</p>
         </div>
+
         <h3>Onderwijs- en Leerresultaten (OLR)</h3>
         <ul>
             <li><strong>Rol: Ontwerper</strong>
@@ -189,9 +211,6 @@
             </li>
         </ul>
 
-
-
-
         <h3>Rol: Ontwerper</h3>
         <h4>Wat lukt me al goed?</h4>
         <p>
@@ -205,17 +224,17 @@
         <h4>Voorbeelden van activiteiten</h4>
         <div class="highlight-box">
             <p><strong>1. Projectplan maken voor een HTML/CSS-project</strong><br>
-                Voordat ik begon met coderen, heb ik eerst een gedetailleerd plan op papier gezet voor mijn website. Ik tekende de structuur van de pagina’s, noteerde welke elementen waar moesten komen en bedacht hoe de styling en kleuren moesten worden toegepast. Dit hielp me om overzicht te houden en fouten tijdens het programmeren te voorkomen.<br>
+                Voordat ik begon met coderen, heb ik eerst een gedetailleerd plan op papier gezet voor mijn website. Ik tekende de structuur van de pagina's, noteerde welke elementen waar moesten komen en bedacht hoe de styling en kleuren moesten worden toegepast. Dit hielp me om overzicht te houden en fouten tijdens het programmeren te voorkomen.<br>
                 <em>Dit hoort bij Ontwerper omdat ik hiermee de basis leg voor het project en niet zomaar in het diepe spring.</em>
             </p>
 
             <p><strong>2. Ontwerp verbeteren na feedback</strong><br>
-                Nadat de docent mijn eerste schets had bekeken, kreeg ik feedback over de navigatie en de indeling van de website. Ik paste mijn ontwerp aan door de pagina’s logischer in te delen. Zo kon ik tijdens het programmeren efficiënter werken en werd het eindresultaat duidelijker en overzichtelijker.<br>
+                Nadat de docent mijn eerste schets had bekeken, kreeg ik feedback over de navigatie en de indeling van de website. Ik paste mijn ontwerp aan door de pagina's logischer in te delen. Zo kon ik tijdens het programmeren efficiënter werken en werd het eindresultaat duidelijker en overzichtelijker.<br>
                 <em>Dit hoort bij Ontwerper omdat je ontwerp bijna nooit in één keer perfect is en je moet kunnen bijsturen.</em>
             </p>
 
-            <p><strong>3. Scenario’s van gebruikerservaring uitdenken</strong><br>
-                Voor mijn website heb ik verschillende gebruikersscenario’s uitgeschreven, zoals hoe iemand een contactformulier invult of informatie zoekt op meerdere pagina’s. Door vooraf na te denken over deze interacties, kon ik de structuur van de website gebruiksvriendelijker maken en anticiperen op mogelijke problemen.<br>
+            <p><strong>3. Scenario's van gebruikerservaring uitdenken</strong><br>
+                Voor mijn website heb ik verschillende gebruikersscenario's uitgeschreven, zoals hoe iemand een contactformulier invult of informatie zoekt op meerdere pagina's. Door vooraf na te denken over deze interacties, kon ik de structuur van de website gebruiksvriendelijker maken en anticiperen op mogelijke problemen.<br>
                 <em>Dit hoort bij Ontwerper omdat ik hiermee rekening houd met de eindgebruiker en een overzichtelijke structuur maak.</em>
             </p>
         </div>
@@ -232,7 +251,6 @@
             Toch vind ik het nog spannend om aan hele grote applicaties te beginnen, omdat ik dan soms bang ben dat ik de draad kwijtraak in al die verschillende bestanden. Ook projecten met een echte interface (GUI) zijn nog een flinke uitdaging voor mij; het is best lastig om de knoppen en schermen goed te laten samenwerken met de code erachter. Daarnaast moet ik er echt aan wennen om Git vaker te gebruiken, want nu vergeet ik dat nog weleens en dat is niet handig voor mijn versiebeheer.
         </p>
 
-        <h3>Rol: Programmeur</h3>
         <h4>Voorbeelden van activiteiten</h4>
         <div class="highlight-box">
             <p><strong>1. Zelf een C# programma bouwen</strong><br>
@@ -250,19 +268,19 @@
                 <em>Dit hoort bij Programmeur omdat het fixen en verbeteren van code een groot deel van je dagelijkse werk is.</em>
             </p>
         </div>
- <hr>
+
+        <hr>
 
         <h3>Rol: Tester</h3>
         <h4>Wat lukt me al goed?</h4>
         <p>
-            Ik ben erachter gekomen dat testen eigenlijk best wel belangrijk is, want er sluipt altijd wel ergens een klein foutje in je code. Ik neem nu echt de tijd om mijn programma’s stap voor stap na te kijken en verschillende dingen in te vullen om te zien of het blijft werken. Als ik merk dat er iets niet klopt, pas ik mijn code meteen aan. Bij websites kijk ik ook altijd even of alles er op mijn telefoon ook nog goed uitziet en of alle linkjes wel werken zoals het hoort.
+            Ik ben erachter gekomen dat testen eigenlijk best wel belangrijk is, want er sluipt altijd wel ergens een klein foutje in je code. Ik neem nu echt de tijd om mijn programma's stap voor stap na te kijken en verschillende dingen in te vullen om te zien of het blijft werken. Als ik merk dat er iets niet klopt, pas ik mijn code meteen aan. Bij websites kijk ik ook altijd even of alles er op mijn telefoon ook nog goed uitziet en of alle linkjes wel werken zoals het hoort.
         </p>
         <h4>Wat lukt me nog niet?</h4>
         <p>
             Wat ik nog lastig vind, is om echt een officieel testplan te maken. Meestal test ik gewoon een beetje op gevoel, maar ik weet dat het professioneler kan. Ook van automatisch testen heb ik nog niet zoveel kaas gegeten; dat lijkt me wel heel handig voor later, maar voor nu doe ik alles nog handmatig. Ik wil leren hoe ik dit slimmer kan aanpakken zodat ik zeker weet dat mijn programma echt 'waterdicht' is.
         </p>
 
-        <h3>Rol: Tester</h3>
         <h4>Voorbeelden van activiteiten</h4>
         <div class="highlight-box">
             <p><strong>1. Scratch-game uitgebreid testen</strong><br>
@@ -271,7 +289,7 @@
             </p>
 
             <p><strong>2. Debuggen van C# code</strong><br>
-                Tijdens het bouwen van een console-applicatie liep het programma vast bij bepaalde invoer. Ik analyseerde de code, vond de fout en paste de logica aan. Vervolgens testte ik opnieuw, zodat de applicatie stabiel draaide voor alle scenario’s.<br>
+                Tijdens het bouwen van een console-applicatie liep het programma vast bij bepaalde invoer. Ik analyseerde de code, vond de fout en paste de logica aan. Vervolgens testte ik opnieuw, zodat de applicatie stabiel draaide voor alle scenario's.<br>
                 <em>Dit hoort bij Tester omdat je door te testen je programma steeds een stukje sterker en beter maakt.</em>
             </p>
 
@@ -293,7 +311,6 @@
             Waar ik nog aan moet werken, is het schrijven van echt technische documentatie. Soms vind ik het lastig om de juiste woorden te vinden voor hele ingewikkelde stukken code. Ook bij grote projecten alles perfect bijhouden in een logboek kost me nog veel moeite. Ik wil daar wat handiger in worden, zodat mijn documentatie net zo goed is als mijn code zelf.
         </p>
 
-        <h3>Rol: Communicator</h3>
         <h4>Voorbeelden van activiteiten</h4>
         <div class="highlight-box">
             <p><strong>1. Uitleg geven over functies van een programma</strong><br>
@@ -312,7 +329,6 @@
             </p>
         </div>
 
-        
         <hr>
 
         <h3>Rol: Levenslang lerende IT-professional</h3>
@@ -325,7 +341,6 @@
             Soms vind ik het wel nog lastig om vooruit te plannen. Ik weet wat ik nu wil leren, maar wat ik over een paar maanden moet kunnen vind ik nog moeilijk in te schatten. Ook nieuwe dingen die ik leer meteen toepassen in een groot project is soms nog een stap te ver; ik heb dan eerst wat kleine oefeningen nodig. Ik wil er een gewoonte van maken om steeds vaker naar tech-nieuws of presentaties te kijken om bij te blijven met wat er allemaal gebeurt.
         </p>
 
-        <h3>Rol: Levenslang lerende IT-professional</h3>
         <h4>Voorbeelden van activiteiten</h4>
         <div class="highlight-box">
             <p><strong>1. Zelf WPF uitproberen</strong><br>
@@ -346,75 +361,80 @@
 
     </section>
 
-    <div class="opdracht">
-        <h3>LockDown Browser (LDB)</h3>
-        <p>Voor deze opdracht moest ik LockDown Browser installeren en gebruiken om toetsen veilig af te leggen. Gelukkig had ik het al op mijn laptop staan, dus ik kwam eigenlijk niet echt problemen tegen. Toch vond ik het handig om te zien hoe een beveiligde toetsomgeving werkt. Het gaf me ook vertrouwen voor toekomstige digitale toetsen, want ik weet nu dat ik het zelfstandig kan gebruiken zonder stress.</p>
-    </div>
+    <section id="opdrachten">
+        <h2>Opdrachten</h2>
 
-    <div class="opdracht">
-        <h3>Scratch-project</h3>
-        <p>Voor Scratch had ik eigenlijk nog nooit iets gedaan, dus dit was echt even wennen. Ik heb een balloon game gebouwd waarin ik sprites, variabelen, loops en events gebruikte. Het was in het begin een beetje chaotisch om alles te begrijpen, maar na een paar YouTube-video's te bekijken had ik het onder de knie en liep het goed. Wat ik hier vooral van heb geleerd, is hoe je logisch moet nadenken als een programmeur. Loops, condities en events zijn nu een stuk duidelijker, en ik heb ook mijn analytisch denkvermogen verbeterd.</p>
-    </div>
+        <div class="opdracht">
+            <h3>LockDown Browser (LDB)</h3>
+            <p>Voor deze opdracht moest ik LockDown Browser installeren en gebruiken om toetsen veilig af te leggen. Gelukkig had ik het al op mijn laptop staan, dus ik kwam eigenlijk niet echt problemen tegen. Toch vond ik het handig om te zien hoe een beveiligde toetsomgeving werkt. Het gaf me ook vertrouwen voor toekomstige digitale toetsen, want ik weet nu dat ik het zelfstandig kan gebruiken zonder stress.</p>
+        </div>
 
-    <div class="opdracht">
-        <h3>Reflectie gastsprekers</h3>
-        <p>Hier moest ik kort opschrijven wat ik van de gastsprekers had geleerd. Het lastigste vond ik om de informatie te vertalen naar mijn eigen inzichten en concrete voorbeelden uit mijn leven of opleiding. Het was interessant om te merken dat je eigenlijk veel meer leert door echt te reflecteren op wat iemand vertelt, en dat het helpt om kritisch te denken over wat je buiten de klas oppikt.</p>
-    </div>
+        <div class="opdracht">
+            <h3>Scratch-project</h3>
+            <p>Voor Scratch had ik eigenlijk nog nooit iets gedaan, dus dit was echt even wennen. Ik heb een balloon game gebouwd waarin ik sprites, variabelen, loops en events gebruikte. Het was in het begin een beetje chaotisch om alles te begrijpen, maar na een paar YouTube-video's te bekijken had ik het onder de knie en liep het goed. Wat ik hier vooral van heb geleerd, is hoe je logisch moet nadenken als een programmeur. Loops, condities en events zijn nu een stuk duidelijker, en ik heb ook mijn analytisch denkvermogen verbeterd.</p>
+        </div>
 
-    <div class="opdracht">
-        <h3>POP: Planning</h3>
-        <p>Bij deze opdracht heb ik een semester- en weekplanning gemaakt voor Werkplekleren 1. Ik vond het best lastig om realistisch in te schatten hoeveel tijd ik aan verschillende taken kon besteden en om me er dan ook echt aan te houden. Maar door dit te oefenen, merk ik dat ik nu mijn tijd beter kan indelen en efficiënter kan werken. Zeker voor iemand zoals ik die soms moeite heeft met plannen, was dit een hele nuttige oefening.</p>
-    </div>
+        <div class="opdracht">
+            <h3>Reflectie gastsprekers</h3>
+            <p>Hier moest ik kort opschrijven wat ik van de gastsprekers had geleerd. Het lastigste vond ik om de informatie te vertalen naar mijn eigen inzichten en concrete voorbeelden uit mijn leven of opleiding. Het was interessant om te merken dat je eigenlijk veel meer leert door echt te reflecteren op wat iemand vertelt, en dat het helpt om kritisch te denken over wat je buiten de klas oppikt.</p>
+        </div>
 
-    <div class="opdracht">
-        <h3>Git & GitHub</h3>
-        <p>Hier heb ik de basis van versiebeheer geleerd: hoe je commits maakt, met branches werkt en een repository bijhoudt. Het was in het begin even zoeken naar de juiste commando's en begrijpen wat een branch en merge precies doen. Wat ik echt heb meegenomen, is dat je met Git veilig kunt samenwerken met andere programmeurs, zonder dat alles door elkaar raakt.</p>
-    </div>
+        <div class="opdracht">
+            <h3>POP: Planning</h3>
+            <p>Bij deze opdracht heb ik een semester- en weekplanning gemaakt voor Werkplekleren 1. Ik vond het best lastig om realistisch in te schatten hoeveel tijd ik aan verschillende taken kon besteden en om me er dan ook echt aan te houden. Maar door dit te oefenen, merk ik dat ik nu mijn tijd beter kan indelen en efficiënter kan werken. Zeker voor iemand zoals ik die soms moeite heeft met plannen, was dit een hele nuttige oefening.</p>
+        </div>
 
-    <div class="opdracht">
-        <h3>C# Console-applicatie</h3>
-        <p>Ik heb een consoleprogramma gebouwd waarin ik variabelen, loops, conditionals en methodes gebruikte. Het was soms puzzelen om de code logisch te structureren zodat alles goed samenwerkt. Ik heb geleerd hoe belangrijk het is om gestructureerd te werken en fouten systematisch op te sporen. Het gevoel dat je een volledig werkende applicatie hebt gebouwd van begin tot eind, was wel echt tof.</p>
-    </div>
+        <div class="opdracht">
+            <h3>Git &amp; GitHub</h3>
+            <p>Hier heb ik de basis van versiebeheer geleerd: hoe je commits maakt, met branches werkt en een repository bijhoudt. Het was in het begin even zoeken naar de juiste commando's en begrijpen wat een branch en merge precies doen. Wat ik echt heb meegenomen, is dat je met Git veilig kunt samenwerken met andere programmeurs, zonder dat alles door elkaar raakt.</p>
+        </div>
 
-    <div class="opdracht">
-        <h3>Reflectie PE: C# Console</h3>
-        <p>Hier heb ik kritisch gekeken naar mijn console-applicatie en feedback verwerkt. Het was niet altijd makkelijk om eerlijk te zijn over wat beter kon, maar ik heb geleerd hoe je feedback praktisch toepast om je werk te verbeteren. Zelfreflectie is best belangrijk, want je merkt vaak dat je dingen over het hoofd ziet totdat iemand anders ernaar kijkt.</p>
-    </div>
+        <div class="opdracht">
+            <h3>C# Console-applicatie</h3>
+            <p>Ik heb een consoleprogramma gebouwd waarin ik variabelen, loops, conditionals en methodes gebruikte. Het was soms puzzelen om de code logisch te structureren zodat alles goed samenwerkt. Ik heb geleerd hoe belangrijk het is om gestructureerd te werken en fouten systematisch op te sporen. Het gevoel dat je een volledig werkende applicatie hebt gebouwd van begin tot eind, was wel echt tof.</p>
+        </div>
 
-    <div class="opdracht">
-        <h3>HTML & CSS</h3>
-        <p>Voor deze opdracht heb ik een webpagina gebouwd met structuur, opmaak en navigatie. Het was een uitdaging om alles responsive te maken en te zorgen dat de styling overal goed uitziet. Wat ik echt heb geleerd, is hoe webpagina's zijn opgebouwd en hoe je met CSS je pagina een nette, consistente look geeft. Het was leuk om iets tastbaars te maken dat je later ook echt online kan zetten.</p>
-    </div>
+        <div class="opdracht">
+            <h3>Reflectie PE: C# Console</h3>
+            <p>Hier heb ik kritisch gekeken naar mijn console-applicatie en feedback verwerkt. Het was niet altijd makkelijk om eerlijk te zijn over wat beter kon, maar ik heb geleerd hoe je feedback praktisch toepast om je werk te verbeteren. Zelfreflectie is best belangrijk, want je merkt vaak dat je dingen over het hoofd ziet totdat iemand anders ernaar kijkt.</p>
+        </div>
 
-    <div class="opdracht">
-        <h3>Debugging (C#)</h3>
-        <p>Hier moest ik fouten opsporen en corrigeren in een bestaande console-applicatie. Sommige foutjes waren echt klein en logisch, en daardoor moeilijk te vinden. Ik heb geleerd hoe belangrijk het is om systematisch te werk te gaan bij debugging en dat je echt geduld nodig hebt. Ook zag ik dat je soms denkt dat alles klopt, maar toch nog fouten mist – dat was een eye-opener.</p>
-    </div>
+        <div class="opdracht">
+            <h3>HTML &amp; CSS</h3>
+            <p>Voor deze opdracht heb ik een webpagina gebouwd met structuur, opmaak en navigatie. Het was een uitdaging om alles responsive te maken en te zorgen dat de styling overal goed uitziet. Wat ik echt heb geleerd, is hoe webpagina's zijn opgebouwd en hoe je met CSS je pagina een nette, consistente look geeft. Het was leuk om iets tastbaars te maken dat je later ook echt online kan zetten.</p>
+        </div>
 
-    <div class="opdracht">
-        <h3>Reflectie PE: Debugging (C#)</h3>
-        <p>Bij deze reflectie schreef ik op wat ik had geleerd tijdens het debuggen. Het analyseren van fouten en opschrijven hoe ik ze heb opgelost, hielp me inzien dat testen en debuggen een groot deel van programmeren is. Het is niet alleen coderen, maar ook continu controleren en verbeteren.</p>
-    </div>
+        <div class="opdracht">
+            <h3>Debugging (C#)</h3>
+            <p>Hier moest ik fouten opsporen en corrigeren in een bestaande console-applicatie. Sommige foutjes waren echt klein en logisch, en daardoor moeilijk te vinden. Ik heb geleerd hoe belangrijk het is om systematisch te werk te gaan bij debugging en dat je echt geduld nodig hebt. Ook zag ik dat je soms denkt dat alles klopt, maar toch nog fouten mist – dat was een eye-opener.</p>
+        </div>
 
-    <div class="opdracht">
-        <h3>Reflectie: SDG's</h3>
-        <p>Voor deze opdracht ging het over twee gastsprekers van IT-bedrijven, waaronder Brighttest, en hoe zij de Sustainable Development Goals toepassen. Het was best interessant om te zien hoe IT-bedrijven een positieve impact kunnen hebben op de wereld. Het was soms moeilijk om dit te koppelen aan concrete voorbeelden uit mijn eigen opleiding, maar uiteindelijk gaf het een goed inzicht in duurzaamheid en technologie.</p>
-    </div>
+        <div class="opdracht">
+            <h3>Reflectie PE: Debugging (C#)</h3>
+            <p>Bij deze reflectie schreef ik op wat ik had geleerd tijdens het debuggen. Het analyseren van fouten en opschrijven hoe ik ze heb opgelost, hielp me inzien dat testen en debuggen een groot deel van programmeren is. Het is niet alleen coderen, maar ook continu controleren en verbeteren.</p>
+        </div>
 
-    <div class="opdracht">
-        <h3>Curriculum Vitae (CV)</h3>
-        <p>Ik heb een volledig CV gemaakt in HTML en CSS. Het was even puzzelen om de juiste opmaak te kiezen en de inhoud overzichtelijk te presenteren, zonder dat er technische fouten in zaten. Wat ik heb geleerd, is hoe je structuur en styling combineert om een professioneel uitziend resultaat te maken. Het voelt best goed om iets concreets te hebben dat ik kan laten zien aan anderen.</p>
-    </div>
+        <div class="opdracht">
+            <h3>Reflectie: SDG's</h3>
+            <p>Voor deze opdracht ging het over twee gastsprekers van IT-bedrijven, waaronder Brighttest, en hoe zij de Sustainable Development Goals toepassen. Het was best interessant om te zien hoe IT-bedrijven een positieve impact kunnen hebben op de wereld. Het was soms moeilijk om dit te koppelen aan concrete voorbeelden uit mijn eigen opleiding, maar uiteindelijk gaf het een goed inzicht in duurzaamheid en technologie.</p>
+        </div>
 
-    <div class="opdracht">
-        <h3>C# WPF</h3>
-        <p>Deze was een vervolg op een labo dat we eerder hadden gemaakt. Het werken met XAML verliep goed en vlot. De code zelf bleek echter uitdagender dan verwacht, vooral bij het correct laten samenwerken van verschillende onderdelen. Hierdoor merkte ik dat mijn code nog beter gestructureerd en overzichtelijker kan. Uit dit PE heb ik geleerd hoe belangrijk het is om voldoende tijd te nemen voor testen, fouten opsporen en het stap voor stap verbeteren van mijn oplossingen bij taken.</p>
-    </div>
+        <div class="opdracht">
+            <h3>Curriculum Vitae (CV)</h3>
+            <p>Ik heb een volledig CV gemaakt in HTML en CSS. Het was even puzzelen om de juiste opmaak te kiezen en de inhoud overzichtelijk te presenteren, zonder dat er technische fouten in zaten. Wat ik heb geleerd, is hoe je structuur en styling combineert om een professioneel uitziend resultaat te maken. Het voelt best goed om iets concreets te hebben dat ik kan laten zien aan anderen.</p>
+        </div>
 
-    <div class="opdracht">
-        <h3>Opdracht: indienen portfolio</h3>
-        <p>Tot slot moest ik mijn portfolio volledig online zetten. Het was een uitdaging om alles overzichtelijk en compleet te houden en technisch te zorgen dat de website echt live werkte. Het gaf me wel een goed gevoel om terug te kijken op alles wat ik dit semester heb gedaan en om te zien wat ik allemaal heb geleerd en bereikt.</p>
-    </div>
+        <div class="opdracht">
+            <h3>C# WPF</h3>
+            <p>Deze was een vervolg op een labo dat we eerder hadden gemaakt. Het werken met XAML verliep goed en vlot. De code zelf bleek echter uitdagender dan verwacht, vooral bij het correct laten samenwerken van verschillende onderdelen. Hierdoor merkte ik dat mijn code nog beter gestructureerd en overzichtelijker kan. Uit dit PE heb ik geleerd hoe belangrijk het is om voldoende tijd te nemen voor testen, fouten opsporen en het stap voor stap verbeteren van mijn oplossingen bij taken.</p>
+        </div>
+
+        <div class="opdracht">
+            <h3>Opdracht: indienen portfolio</h3>
+            <p>Tot slot moest ik mijn portfolio volledig online zetten. Het was een uitdaging om alles overzichtelijk en compleet te houden en technisch te zorgen dat de website echt live werkte. Het gaf me wel een goed gevoel om terug te kijken op alles wat ik dit semester heb gedaan en om te zien wat ik allemaal heb geleerd en bereikt.</p>
+        </div>
+
+    </section>
 
     <section id="reflectie">
         <h2>Reflectie</h2>
@@ -422,13 +442,13 @@
         <h3>AIM-reflectie</h3>
 
         <h4>Introductie</h4>
-        <p>De afgelopen periode van Werkplekleren 1 was een leerzame en gevarieerde ervaring. Tijdens het semester heb ik kennisgemaakt met verschillende aspecten van programmeren, zoals C# Console-applicaties, HTML & CSS, Git & GitHub, en Scratch. Daarnaast waren er opdrachten rond reflectie, POP, kernkwadranten en het opbouwen van een portfolio. Deze periode gaf me een duidelijk beeld van het werkveld van een programmeur en hielp me mijn sterke en zwakkere punten in kaart te brengen. Ik heb zowel theoretische kennis opgedaan als praktische ervaring, en heb geleerd hoe ik mijn tijd en projecten beter kan plannen.</p>
+        <p>De afgelopen periode van Werkplekleren 1 was een leerzame en gevarieerde ervaring. Tijdens het semester heb ik kennisgemaakt met verschillende aspecten van programmeren, zoals C# Console-applicaties, HTML &amp; CSS, Git &amp; GitHub, en Scratch. Daarnaast waren er opdrachten rond reflectie, POP, kernkwadranten en het opbouwen van een portfolio. Deze periode gaf me een duidelijk beeld van het werkveld van een programmeur en hielp me mijn sterke en zwakkere punten in kaart te brengen. Ik heb zowel theoretische kennis opgedaan als praktische ervaring, en heb geleerd hoe ik mijn tijd en projecten beter kan plannen.</p>
 
         <h4>Positief</h4>
         <p>Een van de meest positieve elementen vond ik het werken aan de programmeerprojecten, zoals het Scratch-project en de C# Console-applicatie. Het was bijzonder leuk om mijn eigen code tot leven te zien komen en daadwerkelijk iets werkends te creëren. Vooral het Scratch-project verraste me, omdat ik niet had verwacht dat ik in zo'n korte tijd een volledige game kon maken. Het gevoel van voldoening wanneer alles werkte en het leren van nieuwe programmeerconcepten was erg motiverend en gaf me vertrouwen in mijn capaciteiten.</p>
 
         <h4>Minder leuk</h4>
-        <p>Een uitdagend onderdeel van Werkplekleren 1 was Git & GitHub. In het begin vond ik het moeilijk om de juiste commando's te gebruiken en repositories correct te beheren. Ook het debuggen van fouten in C# was soms frustrerend, vooral wanneer kleine foutjes onverwachte problemen veroorzaakten. Soms liep ik vast op taken die meer geduld en nauwkeurigheid vereisten dan ik aanvankelijk had ingeschat, waardoor ik heb geleerd dat doorzetten en systematisch werken essentieel is.</p>
+        <p>Een uitdagend onderdeel van Werkplekleren 1 was Git &amp; GitHub. In het begin vond ik het moeilijk om de juiste commando's te gebruiken en repositories correct te beheren. Ook het debuggen van fouten in C# was soms frustrerend, vooral wanneer kleine foutjes onverwachte problemen veroorzaakten. Soms liep ik vast op taken die meer geduld en nauwkeurigheid vereisten dan ik aanvankelijk had ingeschat, waardoor ik heb geleerd dat doorzetten en systematisch werken essentieel is.</p>
 
         <h4>Inzichten</h4>
         <p>Ik heb veel nieuwe inzichten opgedaan over programmeren en mijn eigen leerproces. Zo realiseerde ik me dat ik snel kan leren door praktische oefening en dat ik mijn logisch denkvermogen kan inzetten om problemen op te lossen. Daarnaast heb ik geleerd hoe belangrijk planning en documentatie zijn bij een project. In toekomstige werkpleklerenperiodes wil ik deze inzichten toepassen door mijn projecten beter te structureren en systematischer te reflecteren op mijn eigen aanpak, zodat ik efficiënter en effectiever kan werken.</p>
@@ -440,7 +460,7 @@
 
         <h3>Kernkwadrant 1: Doorzettingsvermogen</h3>
         <ul>
-            <li><strong>Kernkwaliteit: Doorzettingsvermogen</strong> </li>
+            <li><strong>Kernkwaliteit: Doorzettingsvermogen</strong></li>
             <li><strong>Valkuil: Geen hulp vragen</strong></li>
             <li><strong>Uitdaging: Tijdig hulp vragen en beter plannen</strong></li>
             <li><strong>Allergie: Passiviteit of te snel opgeven</strong></li>
@@ -449,7 +469,7 @@
         <h3>Kernkwadrant 2: Nauwkeurigheid</h3>
         <ul>
             <li><strong>Kernkwaliteit: Nauwkeurigheid</strong></li>
-            <li><strong>Valkuil: Perfectionisme</strong> </li>
+            <li><strong>Valkuil: Perfectionisme</strong></li>
             <li><strong>Uitdaging: Efficiëntie en balans vinden</strong></li>
             <li><strong>Allergie: Slordigheid of onoverzichtelijk werk</strong></li>
         </ul>
@@ -457,17 +477,15 @@
 
             Mijn grootste uitdaging voor de volgende keer is om sneller om hulp te durven vragen, zodat ik mijn werk sneller af krijg en niet vastloop bij het debuggen. Ik kan dit aanpakken door voor mezelf een timer te zetten en met mezelf af te spreken dat ik na een kwartier zoeken hulp vraag aan mijn docenten of de werkplekcoach. Het zou fijn zijn als mijn coach me kan helpen om te bepalen welke taken het belangrijkst zijn, zodat ik mijn tijd beter verdeel over de dag. In de volgende periode van WPL wil ik vooral leren hoe ik grotere opdrachten, zoals in WPF C#, slim kan opdelen in kleine stukjes. Ik wil mezelf echt verder ontwikkelen in het vlotter samenwerken en communiceren, zodat ik mijn technische skills nog beter kan inzetten in een team.</p>
 
-
         <hr>
     </section>
-
 
     <section id="x-factor">
         <h2>X-factor</h2>
         <div class="xgrid">
             <div class="xcard">
                 <h3>(Em)passie</h3>
-                <p>Mijn passie voor IT is er eigenlijk altijd al geweest, ik was vroeger al bezig met hardware en heb zelfs mijn eigen computer gebouwd. Dit semester kon ik die passie eindelijk echt gebruiken in de praktijk. Ook vond ik het interessant om bij de gastsprekers te zien hoe we met de SDG’s een positieve impact kunnen maken op de wereld. Voor mij is dit dus niet zomaar een richting, maar echt iets waar ik al jaren mee bezig ben.</p>
+                <p>Mijn passie voor IT is er eigenlijk altijd al geweest, ik was vroeger al bezig met hardware en heb zelfs mijn eigen computer gebouwd. Dit semester kon ik die passie eindelijk echt gebruiken in de praktijk. Ook vond ik het interessant om bij de gastsprekers te zien hoe we met de SDG's een positieve impact kunnen maken op de wereld. Voor mij is dit dus niet zomaar een richting, maar echt iets waar ik al jaren mee bezig ben.</p>
             </div>
             <div class="xcard">
                 <h3>Multidisciplinariteit</h3>
@@ -483,6 +501,32 @@
             </div>
         </div>
     </section>
+
+    <section id="wpl2-case">
+        <h2>WPL2 – Case</h2>
+        <h3>Beschrijving van de case</h3>
+        <p>Vanaf 1 januari 2027 wordt tijdsregistratie verplicht voor alle Belgische bedrijven. Elke werkgever moet begin, einde en pauzes digitaal bijhouden en die data vijf jaar bewaren. Voor veel KMO's is dat nieuw en ze hebben vaak geen geschikte tool en willen ook niet onprofessioneel overkomen.
+            De case werd uitgewerkt voor Monocode, een Belgisch softwarebedrijf dat inspeelt op deze nieuwe wetgeving. Het project omvatte branding en positionering, een marketingwebsite met landingspagina en een UI-concept van de applicatie.
+            Daarnaast werd er ook een intern beheerdashboard ontwikkeld. Dat dashboard laat admins toe om gebruikers, producten en bestellingen te beheren. De applicatie is opgebouwd met een ASP.NET Core API als backend, een SQL Server-database, en een frontend dashboard als interface. Functionaliteiten zoals rolgebaseerde toegang, productbeheer, een bestelproces en een contactpagina werden uitgewerkt op basis van user stories. Het project werd in team opgeleverd en beheerd via GitHub.</p>
+    </section>
+
+    <section id="wpl2-aandeel">
+        <h2>WPL2 – Mijn aandeel</h2>
+        <h3>Mijn bijdrage aan het project</h3>
+        <p>Ik heb meegewerkt aan verschillende delen van het project, zowel frontend als backend. Aan de frontendkant bouwde ik een aantal dashboardpagina's: de contactpagina met collega-overzicht, het productbeheer met aanmaken en verwijderen, gebruikersbeheer met filters, en de bestellingenpagina met statusopvolging.
+            Voor de backend werkte ik mee aan de ASP.NET Core API. Ik schreef endpoints voor gebruikers, producten en bestellingen, en koppelde die aan de SQL Server-database. Ook de rolgebaseerde toegang waarbij niet iedereen overal aan kan heb ik mee uitgewerkt.
+            Daarnaast was ik binnen het team verantwoordelijk voor Jira en Confluence. Ik hield het board bij en zorgde dat de documentatie op Confluence up-to-date bleef. Dat was soms wat onderschat werk, maar het hield het team wel georganiseerd.
+            Ik werkte samen met mijn team via GitHub en nam verantwoordelijkheid voor de user stories die aan mij waren toegewezen. Soms liep niet alles perfect, maar dat hoort er ook bij. Over het algemeen was het een leuke opdracht in full-stack development binnen een teamproject.</p>
+    </section>
+
+    <section id="wpl2-eindreflectie">
+        <h2>WPL2 – Eindreflectie</h2>
+        <h3>Link naar mijn eindreflectie</h3>
+        <p><em><a href="PDF/Opdracht%20eindreflectie%20WPL2_AitChikhali_Adam%20(1).pdf" target="_blank">
+            Eindereflectie Adam Ait Chikhali
+        </a></em></p>
+    </section>
+
 </div>
 
 <footer>
@@ -490,9 +534,4 @@
 </footer>
 
 </body>
-
-
-
-
-
-
+</html>
